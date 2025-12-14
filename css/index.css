@@ -215,10 +215,10 @@ svg * {
 
 body {
   position: relative;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: start;
-  min-height: 100vh;
   padding: 50px 30px 80px 30px;
   font-family: "Lato", sans-serif;
   color: var(--color-black);
