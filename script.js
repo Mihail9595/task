@@ -118,7 +118,7 @@ function renderCards(cards) {
     .map(
       (card) =>
         `  <div class="card">
-              <img class="card__image" src="./public/card/${card.image}.jpg" alt="Фото" />
+              <img class="card__image" src="./image/card/${card.image}.jpg" alt="Фото" />
               <div class="card__info">
                 <div class="card__info-text">
                   <h2 style="background-color: ${card.color}"
